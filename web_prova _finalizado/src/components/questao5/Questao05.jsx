@@ -24,7 +24,7 @@ const Questao05 = () => {
   )
 
 
-  const getLargerPopulation = () => {
+  const pegarMaiorPopulacao = () => {
 
     let maiorPopulacao = 0
     let maiorNome = ' '
@@ -51,7 +51,7 @@ const Questao05 = () => {
   }
 
 
-  const getSmallerPopulation = () => {
+  const pegarMenorPopulacao = () => {
 
     let menorPopulacao = 0
     let menorNome = ' '
@@ -83,9 +83,9 @@ const Questao05 = () => {
 
   const getResult = () => {
     if (continente === 'americas') {
-        return getLargerPopulation()
+        return pegarMaiorPopulacao()
     } else {
-        return getSmallerPopulation()
+        return pegarMenorPopulacao()
     }
   }
 
@@ -100,5 +100,6 @@ const Questao05 = () => {
   )
 
 }
+
 
 export default Questao05;
