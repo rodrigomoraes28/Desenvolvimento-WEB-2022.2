@@ -1,4 +1,5 @@
 import React from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 const Questao01A = ({nome, sobrenome, curso}) => {
@@ -10,15 +11,15 @@ const Questao01A = ({nome, sobrenome, curso}) => {
     return ( 
 
         <div>
-            <h3> Nome: {nome} </h3> 
-            <h3> Sobrenome: {sobrenome} </h3>
-            <h3> Curso: {curso} </h3> <br />
+            <h3> NOME: {nome} </h3>
+            <h3> SOBRENOME: {sobrenome} </h3>
+            <h3> CURSO: {curso} </h3> <br />
         </div>
 
     )
 }
 
- 
+
 
 
 export default Questao01A;
