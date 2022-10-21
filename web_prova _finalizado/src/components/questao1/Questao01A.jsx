@@ -1,14 +1,24 @@
-import react from 'react'
+import React from 'react'
 
-function Questao01A(props){
-    return(
+
+const Questao01A = ({nome, sobrenome, curso}) => {
+
+    nome = 'Rodrigo';
+    sobrenome = 'Moraes';
+    curso = 'Engenharia de Software';
+    
+    return ( 
+
         <div>
-            <h3>Nome: {props.nome}</h3>
-            <h3>Sobrenome: {props.sobrenome}</h3>
-            <h3>Curso: {props.curso}</h3>
+            <h3> Nome: {nome} </h3> 
+            <h3> Sobrenome: {sobrenome} </h3>
+            <h3> Curso: {curso} </h3> <br />
         </div>
+
     )
 }
-export default Questao01A
 
  
+
+
+export default Questao01A;
